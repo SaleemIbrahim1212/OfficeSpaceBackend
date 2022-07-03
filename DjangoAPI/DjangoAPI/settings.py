@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-rum(mt)=dk=17w(kv(e$zu-p=+isz-ix+tf@3(qz^h#r#wdw4f
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://booking-backend-sys.herokuapp.com/']
 
 
 # Application definition
