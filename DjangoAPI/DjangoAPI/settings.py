@@ -15,7 +15,7 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-CSRF_TRUSTED_ORIGINS = ['https://booking-backend-sys.herokuapp.com/'] 
+CSRF_TRUSTED_ORIGINS = ['https://booking-backend-sys.herokuapp.com'] 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-rum(mt)=dk=17w(kv(e$zu-p=+isz-ix+tf@3(qz^h#r#wdw4f
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://booking-backend-sys.herokuapp.com/']
+ALLOWED_HOSTS = ['https://booking-backend-sys.herokuapp.com']
 
 
 # Application definition
