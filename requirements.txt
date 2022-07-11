@@ -8,3 +8,4 @@ sqlparse==0.4.2
 tzdata==2022.1
 whitenoise==6.2.0
 djangorestframework==3.11.2
+pytz==2019.3
