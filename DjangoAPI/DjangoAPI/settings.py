@@ -33,7 +33,7 @@ ALLOWED_HOSTS = ['https://booking-backend-sys.herokuapp.com']
 INSTALLED_APPS = [
     'crispy_forms',
     'register',
-    
+    'rest_framework',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
